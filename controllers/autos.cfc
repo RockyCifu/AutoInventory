@@ -4,7 +4,7 @@ component accessors = "true" {
 
   default = (struct rc) => {
     rc.title = "Auto Page";
-    rc.cities = variables.autoService.getCities();
+    rc.cities = variables.autoService.getVehicles();
   }
   
 }
