@@ -10,8 +10,8 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">List of Automobiles</a>
+      <div class="container">
+        <a class="navbar-brand fs-3" href="?action=autos">Vehicle Inventory</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -28,7 +28,7 @@
         </div>
       </div>
     </nav>
-    <h1>Vehicles</h1>
+    <h1 class="text-center mt-5">List of Vehicles</h1>
     <cfoutput>
       #body#
     </cfoutput>
