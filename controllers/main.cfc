@@ -1,4 +1,4 @@
-component accessors = true {
+component accessors = "true" {
   property framework;
 
   default = (struct rc) => {
